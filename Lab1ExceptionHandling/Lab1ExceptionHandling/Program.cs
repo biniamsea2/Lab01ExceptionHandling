@@ -42,7 +42,7 @@ namespace Lab1ExceptionHandling
             }
             if (sum < 20)
             {
-                throw;
+                throw new Exception($"Value of {sum} is too low");
 
             }
             return sum;
