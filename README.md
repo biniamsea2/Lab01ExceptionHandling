@@ -43,9 +43,9 @@ Then select and open ```Lab01ExceptionHanlding.sln```
 #### Application Start
 ![Image 1](https://github.com/biniamsea2/Lab01ExceptionHandling/blob/master/screenshots/Screenshot%20(23).png)
 #### Using the Application
-![Image 1](https://via.placeholder.com/750x500)
+![Image 1](https://github.com/biniamsea2/Lab01ExceptionHandling/blob/master/screenshots/Screenshot%20(20).png)
 #### Application End
-![Image 1](https://via.placeholder.com/750x500)
+![Image 1](https://github.com/biniamsea2/Lab01ExceptionHandling/blob/master/screenshots/Screenshot%20(19).png)
 
 ---
 
