@@ -9,7 +9,7 @@ Lab01-Exception-Handling
 ## Description
 This is a C# console application that creates a math game. It takes user input, manipulates data, and utilizes error handling, by following the given the specifications.
 
-#Program Specifications  
+##Program Specifications  
 Your solution should include the following:  
 Main Method  
 StartSequence Method  
@@ -39,10 +39,9 @@ Then select and open ```Lab01ExceptionHanlding.sln```
 ---
 
 ### Visuals
-***[Add screenshots of your application in action]***
 
 #### Application Start
-![Image 1](https://via.placeholder.com/750x500)
+![Image 1](https://github.com/biniamsea2/Lab01ExceptionHandling/blob/master/screenshots/Screenshot%20(23).png)
 #### Using the Application
 ![Image 1](https://via.placeholder.com/750x500)
 #### Application End
