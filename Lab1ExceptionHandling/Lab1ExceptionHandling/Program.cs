@@ -64,8 +64,9 @@ namespace Lab1ExceptionHandling
 
             return product;
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                Console.WriteLine(e.Message);
                 throw;
             }
         }
