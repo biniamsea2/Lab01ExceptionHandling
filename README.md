@@ -9,7 +9,7 @@ Lab01-Exception-Handling
 ## Description
 This is a C# console application that creates a math game. It takes user input, manipulates data, and utilizes error handling, by following the given the specifications.
 
-#Program Specifications
+#Program Specifications  
 Your solution should include the following:
 Main Method
 StartSequence Method
