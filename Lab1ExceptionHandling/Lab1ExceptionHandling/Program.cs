@@ -20,6 +20,8 @@ namespace Lab1ExceptionHandling
             Populate(userArray);
             GetSum(userArray);
 
+         
+
 
         }
         private static int[] Populate(int[] userArray)
@@ -51,7 +53,21 @@ namespace Lab1ExceptionHandling
 
         private static int GetProduct(int[] userArray, int sum)
         {
+            int product = 0;
+            try
+            {
             Console.WriteLine("Select a random number between 1 and {0} ", userArray.Length);
+            string answer = Console.ReadLine();
+            int temp = Convert.ToInt32(answer);
+
+            product = sum * temp; 
+
+            return product;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         private static decimal GetQutient(int product)
