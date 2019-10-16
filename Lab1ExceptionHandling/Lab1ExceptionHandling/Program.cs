@@ -70,9 +70,24 @@ namespace Lab1ExceptionHandling
             }
         }
 
-        private static decimal GetQutient(int product)
+        private static decimal GetQuotient(int product)
         {
-            Console.WriteLine("Enter a number to divide the product by: ");
+            try
+            {
+            Console.WriteLine($"Enter a number to divide the {product} by: ");
+            string answer = Console.ReadLine();
+            int result = Convert.ToInt32(answer);
+
+            decimal final = decimal.Divide(product, result);
+
+            return final;
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return 0;
+            }
         }
     }
 }
