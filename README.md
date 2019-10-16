@@ -1,18 +1,22 @@
-# Console Application README Example
-
-## About Me Quiz
+# Exception Handling & Debugging
 
 Lab01-Exception-Handling
 
-*Author: Harry Potter*
+*Author: Biniam Tesfamariam*
 
 ----
 
 ## Description
-***[Tell me about your application, should be about a paragraph]***
-This is a C# console application that will ask a user several questions about me, the
-developer. There are multiple question types ranging from inputting a number to True or False.
-At the end of the game the user receives their total score.
+This is a C# console application that creates a math game. It takes user input, manipulates data, and utilizes error handling, by following the given the specifications.
+
+#Program Specifications
+Your solution should include the following:
+Main Method
+StartSequence Method
+Populate Method
+GetSum Method
+GetProduct Method
+GetQuotient
 
 ---
 
@@ -20,7 +24,7 @@ At the end of the game the user receives their total score.
 Clone this repository to your local machine.
 
 ```
-$ git clone [repo clone url here]
+$ git clone https://github.com/biniamsea2/Lab01ExceptionHandling.git
 ```
 
 ### To run the program from Visual Studio:
@@ -28,9 +32,9 @@ Select ```File``` -> ```Open``` -> ```Project/Solution```
 
 Next navigate to the location you cloned the Repository.
 
-Double click on the ```Lab01-About-Me``` directory.
+Double click on the ```Lab01ExceptionHandling``` directory.
 
-Then select and open ```AboutMe.sln```
+Then select and open ```Lab01ExceptionHanlding.sln```
 
 ---
 
