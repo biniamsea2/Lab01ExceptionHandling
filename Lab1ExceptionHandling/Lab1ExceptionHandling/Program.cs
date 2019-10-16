@@ -23,7 +23,9 @@ namespace Lab1ExceptionHandling
             }
         }
 
-
+        /// <summary>
+        /// The StartSequence calls the methods: Populate, GetSum, GetProduct, and GetQuotient. Then Console.WriteLines the outcomes.
+        /// </summary>
         private static void StartSequence()
         {
             try
@@ -62,6 +64,13 @@ namespace Lab1ExceptionHandling
             }
 
         }
+
+
+        /// <summary>
+        /// The Populate method takes the user's input and creates an array the length of the user's input. It then asks the user to fill the length of that array.
+        /// </summary>
+        /// <param name="userArray"></param>
+        /// <returns></returns>
         private static int[] Populate(int[] userArray)
         {
             for (int i = 0; i < userArray.Length; i++)
@@ -73,6 +82,13 @@ namespace Lab1ExceptionHandling
             return userArray;
         }
 
+
+
+        /// <summary>
+        /// GetSum method Iterates through the array and populates the sum variable with the sum of all the numbers from the array.
+        /// </summary>
+        /// <param name="sumArray"></param>
+        /// <returns></returns>
         private static int GetSum(int[] sumArray)
         {
             int sum = 0;
@@ -89,7 +105,12 @@ namespace Lab1ExceptionHandling
             return sum;
         }
 
-
+        /// <summary>
+        /// GetProduct method multiplies the sum by the random number index that the user selected from the array. We set that value to product.
+        /// </summary>
+        /// <param name="userArray"></param>
+        /// <param name="sum"></param>
+        /// <returns></returns>
         private static int GetProduct(int[] userArray, int sum)
         {
             try
@@ -108,6 +129,13 @@ namespace Lab1ExceptionHandling
                 throw;
             }
         }
+
+
+        /// <summary>
+        /// GetQuotient method requests a random # from user then divides that number by the product. Uses decimal.Divide() to divide the product by the dividend to receive the quotient.
+        /// </summary>
+        /// <param name="product"></param>
+        /// <returns></returns>
 
         private static decimal GetQuotient(int product)
         {
